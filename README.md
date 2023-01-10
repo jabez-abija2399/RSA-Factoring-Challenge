@@ -1,13 +1,20 @@
 # RSA Factoring Challenge
+**Mission/Objective:**
+We have sniffed an unsecured network and found numbers that are used to encrypt very important documents. It seems that those numbers are not always generated using large enough prime numbers. Your mission should you choose to accept it, is to factorize these numbers as fast as possible before the target fixes this bug on their server - so that we can decode the encrypted documents.
 
-## Algorithm #Scripting
+### Resources
+* [Prime Factorization](https://privacycanada.net/mathematics/prime-factorization/) || [How does HTTPS provide security?](https://stackoverflow.com/questions/3968095/how-does-https-provide-security) || [RSA (cryptosystem)](https://en.wikipedia.org/wiki/RSA_(cryptosystem%29) || [Python File I/O](https://www.programiz.com/python-programming/file-operation) || [Open a File in Python](https://pynative.com/python-file-open/) || [Reading and Writing to text files in Python](https://www.geeksforgeeks.org/reading-writing-text-files-python/)
 
-![image](https://user-images.githubusercontent.com/105078661/208537372-3171dfba-f74a-4d8f-bcb0-d02b2bd86120.png)
+## General Requirements
+* You can choose the language of your choice, though this project was written in python language
+* All the files was interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+* All files ends with a new line
+* The first line of all your files should be exactly **#!/usr/bin/env python3**
+* There is a **README.md** file, at the root of the folder of the project
+* All files are executable
+* All coded used the pycodestyle (version 2.8.*)*
 
-The RSA algorithm (Rivest-Shamir-Adleman) is the basis of a cryptosystem -- a suite of cryptographic algorithms that are used for specific security services or purposes -- which enables public key encryption and is widely used to secure sensitive data, particularly when it is being sent over an insecure network such as the internet.
-
-## General Requirement
-- You can choose the language of your choice.
-- OS needs to be Standard Ubuntu 20.04 LTS/
-
-![image](https://user-images.githubusercontent.com/105078661/208537555-15cf166f-4aaa-451c-a2dc-a226918584fe.png)
+## List of files and description:
+| S/N   |       Files          |        Description  |
+|:-----:|:--------------------:|:-------------------|
+|1. | [factors](https://github.com/Dikachis/RSA-Factoring-Challenge/factors) | To Factorize as many numbers as possible into a product of two smaller numbers.|
